@@ -9,26 +9,13 @@ Tarot presents three card Tarot readings, each card relating to the Past, Presen
 
 ## Under the Hood
 
-* Ruby ver 2.6.1
-* Rails 6.0.3.2
-* ActiveRecord ver 6.0 3.2
-* SQLite3 ver 1.4
-* Sinatra ver 2.0
-* Sinatra ActiveRecord ver 2.0
+* JavaScript
+* HTML/CSS
 
 ## Install
 
-To check out Tarot, install locally by cloning the GitHub repositories. For the backend, run rails db:migrate, rails db:seed and rails s to start a local server. For the frontend, run lite-server.
+To check out Tarot, install locally by cloning the GitHub repositories. For the backend got to https://github.com/brookbeyene/tarot_backend and install it locally, run rails db:migrate, rails db:seed and rails s to start a local server. For the frontend, run lite-server.
 
-## Code Highlights
-
-`    const $chosenCard = card.filter(card => card.bundle === $bundle && card.id.toString() === $cardID.toString())
-`
-
-`let card = document.querySelector('.thecard1');
-card.addEventListener( 'click', function() {
-  card.classList.toggle('is-flipped');
-});`
 
 ## Contact
 
